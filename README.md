@@ -15,7 +15,6 @@ Obtain an API key from Stock Data API.
 Create a .env file in the root directory of the project.
 Add your API key to the .env file:
 makefile
-Copy code
 STOCK_API_KEY=your-api-key
 Save the .env file.
 Start the application:
