@@ -1,0 +1,139 @@
+body {
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
+  background: radial-gradient(#0056b3, white);
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+}
+
+h1 {
+  font-family: "Arial", sans-serif;
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 25px;
+  color: #585858;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+label {
+  margin-right: 10px;
+  color: gray;
+  font-size: 14px;
+}
+
+input[type="text"] {
+  padding: 8px;
+  font-size: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="date"] {
+  padding: 8px;
+  font-size: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  color: gray;
+}
+
+#getDataBtn {
+  padding: 6px 15px;
+  font-size: 12px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+#resetBtn {
+  margin-top: 10px;
+  padding: 6px 15px;
+  font-size: 11px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.stock-data {
+  margin-top: 20px;
+}
+
+p {
+  margin: 5px 0;
+}
+
+h2 {
+  font-size: 20px;
+  color: #585858;
+}
+
+
+/* Table */
+table {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  border-collapse: separate;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  table-layout: fixed;
+}
+
+table caption {
+  font-family: "Arial", sans-serif;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #585858;
+}
+
+table tr {
+  border: 1px solid #ddd;
+  padding: .35em;
+  color: #585858;
+  font-size: 13px;
+}
+
+table th,
+table td {
+  padding: .625em;
+  text-align: center;
+}
+
+table th {
+  font-size: 12px;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+
+}
+
+table tbody tr:first-child {
+  background-color: #B8D5FF;
+}
